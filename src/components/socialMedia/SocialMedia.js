@@ -115,6 +115,17 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      {socialMediaLinks.yahoo ? (
+        <a
+          href={`mailto:${socialMediaLinks.yahoo}`}
+          className="icon-button yahoo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-yahoo"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }

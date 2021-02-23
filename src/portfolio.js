@@ -9,28 +9,29 @@ const illustration = {
 };
 
 const greeting = {
-  username: "David Rakosi",
-  title: "Hi all, I'm David",
+  username: "George Martin",
+  title: "Hi all, I'm George",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://drive.google.com/file/d/1EI7jvrOZ0TRaHgSlZsfbvCsbG5iVJrON/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/drakosi99",
-  // linkedin: "https://www.linkedin.com/in/",
-  gmail: "contact@davidrakosi.com",
+  github: "https://github.com/gmartin1603",
+  linkedin: "https://www.linkedin.com/in/george-martin-ab003b1b8/",
+  gmail: "duramaxer228@gmail.com",
+  yahoo: "georgemartin1603@yahoo.com",
   // gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/@davidrakosi",
-  stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
-  instagram: 'https://www.instagram.com/davidrakosi/',
-  twitter: 'https://twitter.com/davidrakosi_',
+  // medium: "https://medium.com/@davidrakosi",
+  // stackoverflow: "https://stackoverflow.com/users/13263979/drakosi",
+  // instagram: 'https://www.instagram.com/davidrakosi/',
+  // twitter: 'https://twitter.com/davidrakosi_',
   display: true // Set true to display this section, defaults to false
 };
 
@@ -45,7 +46,7 @@ const skillsSection = {
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase"
     )
   ],
 
@@ -61,10 +62,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -77,18 +78,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -131,15 +132,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend / Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "50%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "20%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "90%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -152,34 +153,34 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      company: "Self Employed",
+      companylogo: require("./assets/images/mcclogo.png"),
+      date: "Febuary 2020 – Present",
       desc:
-        "Changing lives of developers one line of code at a time.",
+        "Learning and growing in my web development journey, and having a blast along the way!",
       descBullets: [
         "Custom building applications",
         "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        // "Streaming live on YouTube",
+        // "Creating tutorials"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "Process Operator",
+      company: "Cargill",
+      companylogo: require("./assets/images/cargilllogo.png"),
+      date: "March 2017 – Present",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "Monitor and adjust manual and automated equipment to maintain quality and efficency standards."
     },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    }
+    // {
+    //   role: "Junior Information Security & Systems Representative",
+    //   company: "Vodafone",
+    //   companylogo: require("./assets/images/vodafoneLogo.png"),
+    //   date: "November 2018 – July 2019",
+    //   desc:
+    //     "I've conducted internal audit making sure the organization is compliant with the GDPR."
+    // }
   ]
 };
 
@@ -188,7 +189,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "drakosi99", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "gmartin1603", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
@@ -310,7 +311,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -349,15 +350,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "(323) 768 0674",
-  email_address: "contact@davidrakosi.com"
+  number: "(319) 981 0054",
+  email_address: "georgemartin1603@yahoo.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
